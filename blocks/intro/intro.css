@@ -1,0 +1,11 @@
+.intro {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  margin: 0;
+  margin-bottom: 120px;
+  padding: 0;
+  padding-left: 120px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

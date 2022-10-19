@@ -1,0 +1,16 @@
+.intro__button {
+  margin: 0;
+  margin-bottom: 167px;
+  padding: 16px 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  text-decoration: none;
+  max-width: 160px;
+  max-height: 50px;
+  background: #24B47E;
+  border-radius: 4px;
+}
