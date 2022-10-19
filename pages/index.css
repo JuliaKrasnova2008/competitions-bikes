@@ -11,3 +11,10 @@
 @import url(../blocks/intro/__caption/intro__caption.css);
 @import url(../blocks/intro/__button/intro__button.css);
 @import url(../blocks/intro/__manufacturer/intro__manufacturer.css);
+
+@import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__autor/quote__autor.css);
+@import url(../blocks/quote/__image/quote__image.css);
+@import url(../blocks/quote/__name/quote__name.css);
+@import url(../blocks/quote/__subline/quote__subline.css);
+@import url(../blocks/quote/__title/quote__title.css);

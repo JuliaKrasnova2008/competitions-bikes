@@ -1,0 +1,13 @@
+.quote {
+  margin: 0;
+  padding: 120px 120px 60px 120px;
+  font-family: 'Inter';
+  font-style: normal;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "image title"
+    ". autor";
+  row-gap: 80px;
+  column-gap: 80px;
+}

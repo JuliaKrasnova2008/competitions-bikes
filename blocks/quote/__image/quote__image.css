@@ -1,0 +1,6 @@
+.quote__image {
+  grid-area: image;
+  object-fit: contain;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}

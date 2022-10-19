@@ -1,0 +1,9 @@
+.quote__autor {
+  margin: 0;
+  padding: 0;
+  grid-area: autor;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 6px;
+}
