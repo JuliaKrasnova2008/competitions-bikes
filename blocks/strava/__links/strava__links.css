@@ -1,0 +1,7 @@
+.strava__links {
+  align-self: end;
+  grid-area: strava__links;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}

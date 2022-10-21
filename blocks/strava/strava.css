@@ -1,0 +1,8 @@
+.strava {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: 2fr minmax(min-content, max-content);
+  grid-template-rows: 100px 280px;
+  grid-template-areas: "strava__title strava__image" "strava__description strava__image" "strava__links strava__image";
+  padding: 150px 120px 120px 120px;
+}
