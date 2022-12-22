@@ -1,64 +1,194 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competitions Bikes</title>
+    <link rel="stylesheet" href="./pages/index.css">
+    <meta
+      name="description"
+      content="Лучшие велосипеды для соревнований по пересеченной местности"
+    >
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>
-    Катайся много или мало, долго или коротко, как хочешь - но катайся
-  </title>
-  <link rel="stylesheet" href="./pages/index.css" />
-</head>
+  <body class="root">
+    <div class="page">
+      <!-- хеадер -->
+      <header class="header">
+        <div class="container header__container">
+          <nav class="header__menu">
+            <ul class="header__menu-ul">
+              <li class="header__menu-item">
+                <a href="#highway">Покрытия и градиенты</a>
+              </li>
+              <li class="header__menu-item"><a href="#bikes">Велосипеды</a></li>
+              <li class="header__menu-item">
+                <a href="#strava">Тренировки</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- основной контент -->
+      <main class="content">
+        <section class="intro">
+          <h1 class="section-title">Шоссе, ТТ и Грэвел</h1>
+          <p class="section-subtitle">
+            Триатлонные старты, горные серпантины или грейвел заезды по
+            живописным маршрутам – нужно только определиться с выбором
+            велосипеда и отправиться в путь.
+          </p>
+          <a class="intro__button" href="#">Подробнее</a>
+          <div class="intro__manufacturer">
+            <p class="intro__caption">Cannondale Systemsix</p>
+            <span class="intro__decor-line"></span>
+          </div>
+          <img class="intro__image" src="./images/road_forest.png" alt="Лес">
+        </section>
 
-<main class="content">
-  <section class="intro">
-    <h1 class="section-title">Шоссе, ТТ и Грэвел</h1>
-    <p class="section-subtitle">
-      Триатлонные старты, горные серпантины или грейвел заезды по живописным
-      маршрутам – нужно только определиться с выбором велосипеда и отправиться
-      в путь.
-    </p>
-    <a class="intro__button" href="#">Подробнее</a>
-    <div class="intro__manufacturer">
-      <p class="intro__caption">Cannondale Systemsix</p>
-      <span class="intro__decor-line"></span>
+        <section class="quote">
+          <img
+            class="quote__image"
+            src="./images/road_mountain.png"
+            alt="Дом в горах"
+          >
+          <h2 class="quote__title">
+            «Катайся много или мало, долго или коротко, как хочешь - но катайся»
+          </h2>
+          <div class="quote__autor">
+            <h3 class="quote__name">Эдди Меркс</h3>
+            <p class="quote__subline">Велогонщик</p>
+          </div>
+        </section>
+
+        <section class="highway" id="highway">
+          <h2 class="section-title">Шоссе</h2>
+          <p class="section-subtitle">
+            На шоссейном велосипеде можно ездить по асфальту на разных
+            градиентах: будь то горы или равнины. Гонки проходят в командном
+            пелотоне, но тренироваться можно и самостоятельно.
+          </p>
+          <div class="highway__photos">
+            <img
+              class="highway__photo"
+              src="./images/highway.png"
+              alt="Дорога в горах"
+            >
+            <img
+              class="highway__photo"
+              src="./images/inforest.png"
+              alt="Дорога в лесу"
+            >
+          </div>
+          <div class="highway__button-round">
+            <a class="highway__button" href="#">
+              <svg
+                class="highway__icon"
+                viewBox="0 0 10 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M9 1L2 9L9 17" stroke="#151515" stroke-width="2">
+              </svg>
+            </a>
+            <a class="highway__button" href="#">
+              <svg
+                class="highway__icon"
+                width="10"
+                viewBox="0 0 10 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 17L8 9L1 0.999999"
+                  stroke="#151515"
+                  stroke-width="2"
+                >
+              </svg>
+            </a>
+          </div>
+        </section>
+
+        <div class="main-section">
+          <div class="container main-section__nav-container">
+            <!-- Секция заголовка -->
+            <h2 class="main-section__title" id="bikes">Велосипеды</h2>
+            <!-- Секция меню -->
+            <nav class="main-section__nav nav-menu">
+              <ul class="nav-menu__list">
+                <li class="nav-menu__item">Шоссе</li>
+                <li class="nav-menu__item">Грэвел</li>
+                <li class="nav-menu__item">ТТ</li>
+              </ul>
+            </nav>
+          </div>
+          <!-- Галерея -->
+          <div class="container main-section__gal-container">
+            <div class="main-section__cards-box">
+              <div class="main-section__cards-item cards-item">
+                <img
+                  class="bike-item__img"
+                  src="./images/Cervelo_Caledonia_5.png"
+                  alt="Cervelo Caledonia-5"
+                >
+                <p class="main-section__cards-text">Cervelo Caledonia-5</p>
+              </div>
+            </div>
+            <div class="main-section__cards-box">
+              <div class="main-section__cards-item cards-item">
+                <img
+                  class="bike-item__img"
+                  src="./images/Cannondale_Systemsix_Himod.png"
+                  alt="Cannondale Systemsix Himod"
+                >
+                <p class="main-section__cards-text">
+                  Cannondale Systemsix Himod
+                </p>
+              </div>
+            </div>
+            <div class="main-section__cards-box">
+              <div class="main-section__cards-item cards-item">
+                <img
+                  class="bike-item__img"
+                  src="./images/Trek_Domane_SL_7.png"
+                  alt="Trek Domane SL-7"
+                >
+                <p class="main-section__cards-text">Trek Domane SL-7</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="strava" id="strava">
+          <h2 class="section-title">Тренировки</h2>
+          <img
+            src="./images/highway_forest.png"
+            alt="Трасса с поворотом"
+            class="strava__image"
+          >
+          <p class="strava__text">
+            Чтобы найти маршрут для тренировки можно воспользоваться сервисом
+            Komoot, а записать эти тренировки поможет приложение Strava, а также
+            это приложение позволит построить тренировочный план.
+          </p>
+          <div class="strava__links">
+            <a href="https://www.strava.com" class="strava__link">Strava</a>
+            <a href="https://www.komoot.com" class="strava__link">Komoot</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer__container">
+          <h3 class="footer__title">Подпишитесь на
+             рассылку &ndash;</h3>
+          <form action="" class="footer__form">
+            <input type="text" class="footer__input" placeholder="Ваш e-mail">
+          </form>
+          <p class="footer__copy">© Road Club 2022</p>
+        </div>
+      </footer>
     </div>
-    <img class="intro__image" src="./images/road_forest.png" alt="Лес" />
-  </section>
-
-  <section class="quote">
-    <img class="quote__image" src="./images/road_mountain.png" alt="Дом в горах" />
-    <h2 class="quote__title">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
-    <div class="quote__autor">
-      <h3 class="quote__name">Эдди Меркс</h3>
-      <p class="quote__subline">Велогонщик</p>
-    </div>
-  </section>
-
-  <section class="highway">
-    <h4 class="section-title">Шоссе</h4>
-    <p class="section-subtitle">
-      На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в
-      командном пелотоне, но тренироваться можно и самостоятельно.
-    </p>
-    <div class="highway__photos">
-      <img class="highway__photo" src="./images/highway.png" alt="Дорога в горах">
-      <img class="highway__photo" src="./images/inforest.png" alt="Дорога в лесу">
-    </div>
-    <div class="highway__button-round">
-      <a class="highway__button" href="#">
-        <svg class="highway__icon" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9 1L2 9L9 17" stroke="#151515" stroke-width="2" />
-        </svg>
-      </a>
-      <a class="highway__button" href="#">
-        <svg class="highway__icon" width="10" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 17L8 9L1 0.999999" stroke="#151515" stroke-width="2" />
-        </svg>
-      </a>
-    </div>
-  </section>
-
-</main>
-
+  </body>
 </html>
